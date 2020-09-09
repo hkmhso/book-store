@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+	<!-- 加载applicationContext.xml配置文件-->
+	<!-- tomcat一启动，加载web.xml时，把spring配置文件信息存放到ServletContext对象中，
+		  进而WebAppliactionContext通过ServletContext对象间接拿到spring配置文件。
+		 spring配置文件路径通过上下文配置参数找到applicationContext.xml配置文件
+		 PS:classpath 和 classpath* 区别：
+			classpath：只会到本项目下的class路径中查找文件;
+			classpath*：不仅包含本项目的class路径，还包括依赖的jar文件中的class路径进行查找。
+	-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:spring/applicationContext.xml</param-value>
+  </context-param>
+  
+  <!-- 配置监听器加载的applicationContext-*.xml配置文件，
+       原理：服务器一启动ServletContext就进行初始化，然后就会触发监听器，
+       监听器就会把全局配置信息<context-param>加载，从而找到spring配置文件，然后进行解析后，
+       放到WebAppliactionContext。
+  -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  
+  <!-- 指定监听器加载的log4j配置文件 -->
+  <context-param>
+      <param-name>log4j</param-name>
+      <param-value>classpath:log4j.properties</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+  </listener>
+  
+  <!-- 前端控制器， 只不过滤jsp-->
+  <servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- 通过初始化参数加载springMVC配置文件 -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring/springmvc.xml</param-value>
+    </init-param>
+    <!-- 服务器一开启该类就会被实例化 -->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <!-- /:表示只不过滤jsp,其他静态资源和控制器都会过滤 ，所以需要在springmvc.xml中放行静态资源
+    	不可以配置/*,这样jsp就也会被前端控制器所过滤了，这样是不对的。
+    -->
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+   
+   <!-- 字符编码过滤器 ,只能解决post请求的乱码问题-->
+  <filter>
+    <filter-name>encoding</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>encoding</filter-name>
+    <!--/*:对所有web资源设置编码格式,包括jsp-->
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <!-- 错误页面 -->
+  <error-page>
+	<error-code>400</error-code>
+	<location>/error/400</location>
+  </error-page>
+  <error-page>
+	<error-code>404</error-code>
+	<location>/error/404</location>
+  </error-page>
+  <error-page>
+	<error-code>500</error-code>
+	<location>/error/500</location>
+  </error-page>
+</web-app>
