@@ -97,7 +97,7 @@
 				 <mvc:exclude-mapping path="/**/img/**"/>
 			     <!-- 引入自定义的拦截器类处理拦截，
 			    	 特别注意：class属性不能使用通配符的形式，必须是具体的类路径全限定名  -->
-			     <bean class="com.sprjjs.book.intercepter.LoginInterceptor"></bean>
+			     <bean class="com.sprjjs.book.interceptor.LoginInterceptor"></bean>
 		     </mvc:interceptor>
 		</mvc:interceptors>
 </beans>
