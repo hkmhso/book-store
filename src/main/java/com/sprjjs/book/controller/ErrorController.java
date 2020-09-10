@@ -39,6 +39,16 @@ public class ErrorController {
 	}
 
 	/**
+	 * 600页面(新添的功能，为了测试GitLab)
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping("600")
+	public String handle4(){
+		return "redirect:/error/600.html";
+	}
+
+	/**
 	 * 跳到WEB-INF目录下的页面
 	 * @param html 页面
 	 * @param referer 上一个页面url

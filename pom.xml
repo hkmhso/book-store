@@ -192,7 +192,7 @@
                 <version>${tomcat-version}</version>
                 <configuration>
                     <!-- 控制 tomcat 端口号 (80为默认端口号)-->
-                    <port>80</port>
+                    <port>8081</port>
                     <!-- 项目发布到 tomcat 后的名称 -->
                     <!-- / 相当于把项目发布名称为 ROOT -->
                     <!-- /abc -->
