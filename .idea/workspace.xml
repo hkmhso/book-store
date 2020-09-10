@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="20289fff-ee4e-4206-a07c-f4e920265754" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sprjjs/book/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sprjjs/book/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +28,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -55,7 +77,7 @@
       <updated>1599702688534</updated>
       <workItem from="1599702732053" duration="2546000" />
       <workItem from="1599736574444" duration="1063000" />
-      <workItem from="1599739350467" duration="431000" />
+      <workItem from="1599739350467" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="修改代码">
       <created>1599739518963</created>
@@ -64,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599739518963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改代码2">
+      <created>1599739858778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599739858778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,17 +112,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改代码" />
+    <MESSAGE value="修改代码2" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="0" key="#Project_Structure" timestamp="1599739438225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1599739438225" />
-    <state x="361" y="0" key="CommitChangelistDialog2" timestamp="1599739516514">
+    <state x="361" y="0" key="CommitChangelistDialog2" timestamp="1599739856538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599739516514" />
+    <state x="361" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599739856538" />
     <state x="579" y="175" key="FileChooserDialogImpl" timestamp="1599739603565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -122,10 +152,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="300" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599704171562" />
-    <state x="443" y="183" key="git4idea.merge.GitPullDialog" timestamp="1599739528771">
+    <state x="387" y="129" key="Vcs.Push.Dialog.v2" timestamp="1599739920593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="443" y="183" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599739528771" />
+    <state x="387" y="129" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599739920593" />
+    <state x="443" y="183" key="git4idea.merge.GitPullDialog" timestamp="1599739872247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="183" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599739872247" />
     <state x="611" y="294" key="git4idea.ui.GitStashDialog" timestamp="1599739284656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
