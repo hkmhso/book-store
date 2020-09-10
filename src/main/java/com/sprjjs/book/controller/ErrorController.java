@@ -39,36 +39,6 @@ public class ErrorController {
 	}
 
 	/**
-	 * 600页面(新添的功能，为了测试GitLab)
-	 * @param request
-	 * @return
-	 */
-	@RequestMapping("600")
-	public String handle4(){
-		return "redirect:/error/600.html";
-	}
-
-	/**
-	 * 700页面(新添的功能，为了测试GitLab)
-	 * @param request
-	 * @return
-	 */
-	@RequestMapping("700")
-	public String handle5(){
-		return "redirect:/error/700.html";
-	}
-
-	/**
-	 * 800页面(新添的功能，为了测试GitLab)
-	 * @param request
-	 * @return
-	 */
-	@RequestMapping("800")
-	public String handle6(){
-		return "redirect:/error/800.html";
-	}
-
-	/**
 	 * 跳到WEB-INF目录下的页面
 	 * @param html 页面
 	 * @param referer 上一个页面url
