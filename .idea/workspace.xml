@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="20289fff-ee4e-4206-a07c-f4e920265754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sprjjs/book/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sprjjs/book/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TBannerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TBookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TCartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TCollectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TOitemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TRecommendedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sprjjs/book/mapper/TUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/mybatis/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hIdlCzmdfhzCjEyPEdQU4RcjuN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -37,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../book-store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -80,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改代码" />
@@ -94,10 +111,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599739516514" />
-    <state x="579" y="175" key="FileChooserDialogImpl" timestamp="1599739603565">
+    <state x="579" y="175" key="FileChooserDialogImpl" timestamp="1599740470379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="579" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599739603565" />
+    <state x="579" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599740470379" />
     <state width="1266" height="264" key="GridCell.Tab.0.bottom" timestamp="1599725090160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -122,10 +139,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="300" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599704171562" />
-    <state x="443" y="183" key="git4idea.merge.GitPullDialog" timestamp="1599739528771">
+    <state x="443" y="183" key="git4idea.merge.GitPullDialog" timestamp="1599740762147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="443" y="183" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599739528771" />
+    <state x="443" y="183" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1599740762147" />
     <state x="611" y="294" key="git4idea.ui.GitStashDialog" timestamp="1599739284656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
