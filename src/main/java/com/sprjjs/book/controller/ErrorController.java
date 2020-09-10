@@ -49,6 +49,16 @@ public class ErrorController {
 	}
 
 	/**
+	 * 700页面(新添的功能，为了测试GitLab)
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping("700")
+	public String handle5(){
+		return "redirect:/error/700.html";
+	}
+
+	/**
 	 * 跳到WEB-INF目录下的页面
 	 * @param html 页面
 	 * @param referer 上一个页面url
